@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+body {
+  background-color: #1c1c1c; /* Dark gray-black background */
+  color: #ffffff; /* White font color for all text */
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1, h2, h3, h4, h5, h6 {
+  color: #ff3333; /* Bright red for headings */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  color: #ff3333; /* Bright red for links */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a:hover {
+  color: #ff6666; /* Lighter red on hover */
 }
 
-.App-link {
-  color: #61dafb;
+p {
+  color: black; /* Light gray for paragraphs */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-outline-danger {
+  color: #ffffff; /* White text for buttons */
+  border-color: #ff3333; /* Red border for buttons */
+}
+
+.btn-outline-danger:hover {
+  background-color: #ff3333; /* Red background on hover */
+  color: #ffffff; /* White text on hover */
+}
+
+.text-light {
+  color: #ffffff !important; /* Ensures white text color */
 }
